@@ -1,0 +1,65 @@
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,700&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+
+.styled-table {
+    border-collapse: collapse;
+    margin: auto;
+    font-size: 1rem;
+    max-width: 1000px;
+    box-shadow:  0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+
+.styled-table th, 
+.styled-table td {
+    padding: 12px 15px;
+    text-align: center;
+}
+
+.styled-table tbody tr {
+    border-bottom:  1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 3px solid rgb(5, 5, 5);
+}
+
+.btn {
+    border: none;
+    color: white;
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.btn-edit {
+    background-color: #1b0cf0;
+}
+
+.btn-delete {
+    background-color: #f7291b;
+}
+
+.btn-view {
+    background-color: #e7e7e7;
+    color: black;
+}

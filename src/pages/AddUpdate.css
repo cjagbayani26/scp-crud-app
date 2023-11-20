@@ -1,0 +1,49 @@
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,700&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    box-sizing: border-box;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="submit"] {
+    width: 50%;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: large;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(253, 86, 86);
+}
+
+.footer {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    background-color: grey;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+}
